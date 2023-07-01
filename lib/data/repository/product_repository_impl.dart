@@ -12,7 +12,7 @@ class ProductRepositoryImpl extends ProductRepository {
   });
   @override
   Future<Result> getProductItmes() async {
-    return await getProductItmes();
+    return await productDataSource.getProductItmes();
   }
 
   @override

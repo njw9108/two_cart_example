@@ -57,8 +57,8 @@ List<ProductItem> sampleItems = [
     type: ProductType.fresh,
   ),
   ProductItem(
-    name: '상품1',
-    price: 500,
+    name: '상품6',
+    price: 6600,
     type: ProductType.normal,
   ),
 ];

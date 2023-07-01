@@ -19,7 +19,6 @@ class HomeCubit extends Cubit<HomeState> {
     emit(
       HomeDataLoading(),
     );
-
     final result = await productRepository.getProductItmes();
 
     if (result is ResultSucess) {
